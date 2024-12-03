@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-03T18:08:14.302400Z</date>
+  <millis>1733249294302</millis>
+  <nanos>400000</nanos>
+  <sequence>0</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting the robot simulator...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.523471Z</date>
+  <millis>1733249294523</millis>
+  <nanos>471000</nanos>
+  <sequence>1</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>CONFIG</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>With parameters: [].</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.524234Z</date>
+  <millis>1733249294524</millis>
+  <nanos>234000</nanos>
+  <sequence>2</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Initializing factory...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.525353Z</date>
+  <millis>1733249294525</millis>
+  <nanos>353000</nanos>
+  <sequence>3</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>initializeFactory</method>
+  <thread>1</thread>
+  <message>Creating factory instance...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.535629Z</date>
+  <millis>1733249294535</millis>
+  <nanos>629000</nanos>
+  <sequence>4</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>initializeFactory</method>
+  <thread>1</thread>
+  <message>Adding components to factory...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.542464Z</date>
+  <millis>1733249294542</millis>
+  <nanos>464000</nanos>
+  <sequence>5</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>initializeFactory</method>
+  <thread>1</thread>
+  <message>Adding robots and pathfinders...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.561633Z</date>
+  <millis>1733249294561</millis>
+  <nanos>633000</nanos>
+  <sequence>6</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>initializeFactory</method>
+  <thread>1</thread>
+  <message>Finalizing factory initialization...</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:14.630559Z</date>
+  <millis>1733249294630</millis>
+  <nanos>559000</nanos>
+  <sequence>7</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Factory initialized: Factory [name=Simple Test Puck Factory, components=[Room [name=Production Room 1 xCoordinate=20, yCoordinate=20, shape=RectangularShape at Position = (20, 20) [width=75, height=75] areas=[Area [name=Production Area 1 xCoordinate=35, yCoordinate=35, shape=RectangularShape at Position = (35, 35) [width=50, height=50] machine=Machine [name=Machine 1 xCoordinate=50, yCoordinate=50, shape=RectangularShape at Position = (50, 50) [width=15, height=15]]]]], Door [name=Entrance xCoordinate=30, yCoordinate=95, shape=RectangularShape at Position = (30, 95) [width=20, height=1]], Area [name=Production Area 1 xCoordinate=35, yCoordinate=35, shape=RectangularShape at Position = (35, 35) [width=50, height=50] machine=Machine [name=Machine 1 xCoordinate=50, yCoordinate=50, shape=RectangularShape at Position = (50, 50) [width=15, height=15]]], Machine [name=Machine 1 xCoordinate=50, yCoordinate=50, shape=RectangularShape at Position = (50, 50) [width=15, height=15]], Room [name=Production Room 2 xCoordinate=120, yCoordinate=22, shape=RectangularShape at Position = (120, 22) [width=75, height=75] areas=[Area [name=Production Area 1 xCoordinate=135, yCoordinate=35, shape=RectangularShape at Position = (135, 35) [width=50, height=50] machine=Machine [name=Machine 2 xCoordinate=150, yCoordinate=50, shape=RectangularShape at Position = (150, 50) [width=15, height=15]]]]], Door [name=Entrance xCoordinate=120, yCoordinate=32, shape=RectangularShape at Position = (120, 32) [width=1, height=20]], Area [name=Production Area 1 xCoordinate=135, yCoordinate=35, shape=RectangularShape at Position = (135, 35) [width=50, height=50] machine=Machine [name=Machine 2 xCoordinate=150, yCoordinate=50, shape=RectangularShape at Position = (150, 50) [width=15, height=15]]], Machine [name=Machine 2 xCoordinate=150, yCoordinate=50, shape=RectangularShape at Position = (150, 50) [width=15, height=15]], Room [name=Charging Room xCoordinate=125, yCoordinate=125, shape=RectangularShape at Position = (125, 125) [width=50, height=50] areas=[]], Door [name=Entrance xCoordinate=175, yCoordinate=135, shape=RectangularShape at Position = (175, 135) [width=1, height=20]], ChargingStation [name=Charging Station xCoordinate=150, yCoordinate=145, shape=RectangularShape at Position = (150, 145) [width=15, height=15]], Robot [name=Robot 1 xCoordinate=5, yCoordinate=5, shape=CircularShape at Position = (5, 5) [radius=2] battery=Battery [capacity=10.0]], Robot [name=Robot 2 xCoordinate=45, yCoordinate=5, shape=CircularShape at Position = (45, 5) [radius=2] battery=Battery [capacity=10.0]]]]</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:16.564470Z</date>
+  <millis>1733249296564</millis>
+  <nanos>470000</nanos>
+  <sequence>8</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.app.SimulatorApplication</class>
+  <method>lambda$0</method>
+  <thread>25</thread>
+  <message>Simulator launched successfully.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:30.319103Z</date>
+  <millis>1733249310319</millis>
+  <nanos>103000</nanos>
+  <sequence>9</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>persistUsingObjectStream</method>
+  <thread>45</thread>
+  <message>Persist method using Object Stream started.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:30.504136Z</date>
+  <millis>1733249310504</millis>
+  <nanos>136000</nanos>
+  <sequence>10</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>persistUsingObjectStream</method>
+  <thread>45</thread>
+  <message>Socket connection established with server.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:30.579846Z</date>
+  <millis>1733249310579</millis>
+  <nanos>846000</nanos>
+  <sequence>11</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>persistUsingObjectStream</method>
+  <thread>45</thread>
+  <message>Factory model sent to server successfully.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:30.639458Z</date>
+  <millis>1733249310639</millis>
+  <nanos>458000</nanos>
+  <sequence>12</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>persistUsingObjectStream</method>
+  <thread>45</thread>
+  <message>Server response: Factory model saved successfully.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:35.144807Z</date>
+  <millis>1733249315144</millis>
+  <nanos>807000</nanos>
+  <sequence>13</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>readUsingObjectStream</method>
+  <thread>46</thread>
+  <message>Read method using Object Stream started.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:35.151897Z</date>
+  <millis>1733249315151</millis>
+  <nanos>897000</nanos>
+  <sequence>14</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>readUsingObjectStream</method>
+  <thread>46</thread>
+  <message>Socket connection established with server.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:35.155756Z</date>
+  <millis>1733249315155</millis>
+  <nanos>756000</nanos>
+  <sequence>15</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>readUsingObjectStream</method>
+  <thread>46</thread>
+  <message>Identifier sent to server successfully.</message>
+</record>
+<record>
+  <date>2024-12-03T18:08:35.289788Z</date>
+  <millis>1733249315289</millis>
+  <nanos>788000</nanos>
+  <sequence>16</sequence>
+  <logger>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.projects.robotsim.client.RemoteFactoryPersistenceManager</class>
+  <method>readUsingObjectStream</method>
+  <thread>46</thread>
+  <message>Canvas retrieved successfully: canvas_3.Remote_Factory_Models.ser</message>
+</record>
